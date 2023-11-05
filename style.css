@@ -1,0 +1,340 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    position: relative;
+    overflow: hidden;
+}
+
+.page {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(32, 30, 30);
+}
+
+.page>img {
+    position: absolute;
+    width: 55%;
+    height: 100%;
+    opacity: 0.99;
+}
+
+.page>.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+    position: absolute;
+    height: 10%;
+    z-index: 9;
+    width: 100%;
+    background-color: rgb(58, 44, 44);
+}
+
+.nav>h3 {
+    position: absolute;
+    color: white;
+    font-weight: 500;
+}
+
+.line {
+    font-size: 22px;
+    color: white;
+}
+
+.center-nav {
+    display: flex;
+    position: relative;
+    gap: 50px;
+    left: 57%;
+}
+
+.center-nav>a {
+    font-weight: 100;
+    text-decoration: none;
+    color: white;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.download-btn {
+    background-color: #3A2C2C;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500px;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+.text {
+    padding: 30px 50px;
+    position: relative;
+    left: 52%;
+    top: 18%;
+    height: 75%;
+    width: 35%;
+}
+
+.text>h1 {
+    font-size: 50px;
+    line-height: 1;
+    margin: 30px 30px;
+    color: white;
+    font-size: 80px;
+}
+
+.text>h4 {
+    margin: 40px 45px;
+    font-size: 15px;
+    color: rgb(53, 50, 50);
+    font-weight: 500;
+    color: white;
+    font-family: 'Edu TAS Beginner', cursive;
+}
+
+.button {
+    position: absolute;
+    height: 20%;
+    width: 100%;
+    left: 13%;
+    bottom: 2%;
+}
+
+.button>button {
+    padding: 10px 20px;
+    font-weight: 500;
+    border: none;
+}
+
+.button>.b1 {
+    background-color: white;
+    margin: 20px;
+}
+
+.button>.b2 {
+    margin: 20px;
+    background-color: rgb(32, 30, 30);
+    ;
+    color: white;
+}
+
+.button>i {
+    font-size: 20px;
+}
+
+.page1 {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(32, 30, 30);
+}
+
+.page1>.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+    position: absolute;
+    height: 10%;
+    z-index: 9;
+    width: 100%;
+    background-color: rgb(58, 44, 44);
+}
+
+.page1>img {
+    top: 10%;
+    position: relative;
+    width: 33%;
+    left: 3px;
+    height: 40%;
+}
+
+.page1>h1 {
+    position: relative;
+    width: 17%;
+    top: 15%;
+    left: 17%;
+    font-size: 53px;
+    color: white;
+}
+
+.page1>.h {
+    position: relative;
+    color: white;
+    width: 6.5%;
+    top: 15%;
+    left: 17%;
+}
+
+.page1>.det1 {
+    position: relative;
+    color: white;
+    top: 15%;
+    left: 40%;
+    font-size: 12px;
+    width: 8%;
+}
+
+.page1>.det2 {
+    position: relative;
+    color: white;
+    top: 8%;
+    left: 59%;
+    font-size: 12px;
+    width: 10%;
+}
+
+.page1>.det3 {
+    position: relative;
+    color: white;
+    top: 1%;
+    left: 77%;
+    font-size: 12px;
+    width: 8%;
+}
+
+.page1>.det4 {
+    position: relative;
+    color: white;
+    top: 10%;
+    left: 40%;
+    font-size: 12px;
+    width: 8%;
+}
+
+.page1>.det5 {
+    position: relative;
+    color: white;
+    top: 3%;
+    left: 59%;
+    font-size: 12px;
+    width: 16%;
+}
+
+.page2 {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(32, 30, 30);
+}
+
+.page2>.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+    position: absolute;
+    height: 10%;
+    z-index: 9;
+    width: 100%;
+    background-color: rgb(58, 44, 44);
+}
+
+.page2>img {
+    position: absolute;
+    width: 55%;
+    height: 100%;
+    opacity: 0.99;
+}
+
+.page2>h1 {
+    position: relative;
+    width: 20%;
+    top: 12%;
+    left: 60%;
+    font-size: 53px;
+    color: white;
+}
+
+.page2>.h {
+    position: relative;
+    color: white;
+    width: 6.5%;
+    top: 14%;
+    left: 60%;
+}
+
+.page2>h4 {
+    position: relative;
+    color: white;
+    width: 36%;
+    top: 20%;
+    left: 60%;
+    font-size: 12px;
+}
+
+.page2>.h2 {
+    position: relative;
+    color: white;
+    width: 36%;
+    top: 25%;
+    left: 60%;
+}
+
+.page2>.h3 {
+    position: relative;
+    color: white;
+    width: 36%;
+    top: 75%;
+    left: 60%;
+}
+
+.page2>.con1 {
+    color: white;
+    position: relative;
+    width: 10%;
+    top: 28%;
+    left: 60%;
+}
+
+.page2>.con2 {
+    color: white;
+    position: relative;
+    width: 26%;
+    top: 33%;
+    left: 60%;
+}
+
+.page2>.con3 {
+    color: white;
+    position: relative;
+    width: 29%;
+    top: 38%;
+    left: 60%;
+}
+
+.page2>.con4 {
+    color: white;
+    position: relative;
+    width: 10%;
+    top: 43%;
+    left: 60%;
+}
+
+.page2>.con5 {
+    color: white;
+    position: relative;
+    width: 10%;
+    top: 48%;
+    left: 60%;
+}
+
+.page2>.con6 {
+    color: white;
+    position: relative;
+    width: 10%;
+    top: 53%;
+    left: 60%;
+}
